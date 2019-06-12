@@ -14,13 +14,18 @@ const clone = require('git-clone');
 // Accept github username
 let user = 'TylerGlisson';
 
+const cloneURL_arr = (data) => {
+    const urlArr = data.map((val => val.clone_url));
+    return urlArr;
+};
 
 const repos = fetch(`https://api.github.com/users/${user}/repos`)
     .then(response => response.json())
-    // .then(resJson => console.log(resJson))
+    // .then(data => console.log(data[0].clone_url))
+    .then((data) => console.log(cloneURL_arr(data)))
     .catch(err => {console.log('There was an error ', err)});
 
-repos.then(resJson => console.log(resJson))
+// let rep = repos.then(resJson => console.log(resJson)). 
 
 
 // Loop through response array and create a

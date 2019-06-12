@@ -1,0 +1,24 @@
+{
+  "name": "getrepos",
+  "version": "1.0.0",
+  "description": "This is a node app that facilitates cloning all of the repositories of a given user's account on Github.",
+  "main": "getRepos.js",
+  "dependencies": {
+    "javascript-simple-terminal": "^1.0.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerGlisson/getRepos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerGlisson/getRepos/issues"
+  },
+  "homepage": "https://github.com/TylerGlisson/getRepos#readme"
+}

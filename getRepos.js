@@ -1,12 +1,7 @@
 // Simple app to clone all repositories belonging to a github user
 
-// node-fetch library
 const fetch = require('node-fetch');
-
-// Node file system api
 const fs = require('fs');
-
-// Node git-clone module
 const clone = require('git-clone');
 
 const fetcher = async (user) => {
@@ -16,7 +11,6 @@ const fetcher = async (user) => {
 };
 
 const cloneURL_arr = (data) => data.map((val => val.clone_url));
-
 const names_arr = (data) => data.map((val => val.name));
 
 let main = async () => {

@@ -13,7 +13,7 @@ After a clean installation of my OS, I wanted an expedited way to retrieve a loc
 
 ## Tech/framework used
 <!-- [React](https://github.com/facebook/react), [Create React App](https://github.com/facebook/create-react-app), Javascript, HTML, CSS -->
-[Node](https://nodejs.org/), [Node-Fetch](https://www.npmjs.com/package/node-fetch), [Node's File System module](https://nodejs.org/api/fs.html), [Git-Clone](https://www.npmjs.com/package/git-clone),
+[Node](https://nodejs.org/), [Node-Fetch](https://www.npmjs.com/package/node-fetch), [Node's File System module](https://nodejs.org/api/fs.html), [Git-Clone](https://www.npmjs.com/package/git-clone), [Prompts](https://www.npmjs.com/package/prompts)
 
 ## License
 MIT © Tyler Glisson
